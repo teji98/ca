@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gabarito&family=Satisfy&display=swap" rel="stylesheet">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            color: white;
+        }
+        nav{
+            background-color: rgb(200, 16, 46);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 15px 20px;
+            position: relative;
+            height: 78px;
+
+        }
+        nav ul{
+            padding: 0 0 0 20px;
+        }
+        nav ul li{
+            list-style: none;
+            display: inline;
+            margin: 10px;
+        }
+        nav ul li a {
+            font-family: 'Gabarito',sans-serif;
+            font-size: 20px;
+            text-decoration: none;
+        }
+        nav div span{
+            font-family: 'Satisfy';
+            font-size: 2rem;
+            font-weight: 600;
+            bottom: 10px;
+        }
+        nav .logo{
+            position: absolute;
+            bottom: 10px;
+            left: 52%;
+            transform: translate(-50%);
+        }
+        nav .logo span{
+            letter-spacing: 2px;
+        }
+        nav .nav-option,
+        nav .logo,
+        nav .option{
+            width: 200px;
+        }
+        nav .nav-option{
+            width: 300px;
+        }
+        nav div.option{
+            display: flex;
+            justify-content: center;
+        }
+        nav div.option div{
+            margin-right: 10px;
+        }
+        nav .option button.prim{
+            padding: 10px 25px;
+            border-radius: 20px;
+            border: none;
+            color: rgb(200, 16, 46);
+            font-weight: 600;
+
+        }
+        nav .option button.sec{
+            padding: 10px 25px;
+            border-radius: 20px;
+            border: none;
+            color: rgb(200, 16, 46);
+            font-weight: 600;
+
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <div class="nav-option">
+                <ul>
+                    <li><a href="#">Menu</a></li>
+                    <li><a href="#">Franchising</a></li>
+                    <li><a href="#">More</a></li>
+                </ul>
+            </div>
+            <div class="logo">
+                <span>
+                    Tim Hortins
+                </span>
+            </div>
+            <div class="option">
+                <div>
+                    <button class="prim">Sign In</button>
+                </div>
+                <div>
+                    <button class="sec">Cont</button>
+                </div>
+            </div>
+        </nav>
+    </div>
+</body>
+</html>
